@@ -72,6 +72,11 @@ function pawapay_init_gateway_class() {
           'description' => 'Integrate to mobile money across Africa',
           'default'     => 'Integrate to mobile money across Africa.'
         ),
+        'returnUrl' => array(
+                  'title'       => 'Return URL',
+                  'type'        => 'text',
+                  'description'       => 'Enter your wordpress site address'
+                ),
         'sandBoxApiToken' => array(
           'title'       => 'Sandbox API Token',
           'type'        => 'text',
